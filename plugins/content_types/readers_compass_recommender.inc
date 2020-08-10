@@ -24,7 +24,6 @@ function ding_readers_compass_readers_compass_recommender_content_type_render($s
   <div id="readers-compass-recommender"></div>  
   <script src="https://api.laesekompas.dk/ddbWidget.js"></script>
       <script>
-        alert ("1");
         EmbeddableWidget.mount({
           type: "recommender",
           parentElement: "#readers-compass-recommender", // Dom Element in which the widget is mounted.
